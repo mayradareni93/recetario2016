@@ -1,0 +1,38 @@
+body {
+
+    font-family:Swis721 Cn BT, Baskerville Old Face, Arial Narrow;
+     background="imagenes/misrecetasdecocina.jpg";
+	
+	
+}
+
+
+#contenedor{
+
+	width:700px;
+	margin:auto;
+	padding:5px;
+    height: 700px;
+    
+}
+h1 {
+    color: rebeccapurple; 
+    font-size:50px;
+} 
+
+h2 
+{
+    color: rebeccapurple; 
+    font-size:33px;
+} 
+
+
+
+
+p, li {
+
+    color: black; 
+    font-size:18px;
+
+}
+

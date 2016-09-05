@@ -1,0 +1,124 @@
+
+body {
+
+    font-family:Swis721 Cn BT, Baskerville Old Face, Arial Narrow;
+ 	
+	
+}
+
+.menu{
+    list-style:none;
+	padding:0px;
+	margin:0px;
+
+	
+	
+}
+.menu li{
+	margin:0px;
+	padding:0px;
+	float: left;
+	position:relative;
+	box-shadow: 2px 2px 4px 1px #000;	
+}
+.menu li a{
+	display: inline-block;
+	width: 190px;
+	height: 47px;
+	padding: 10px;
+	line-height:30px;
+	text-decoration: none;
+	text-align:center;
+	color: #FFF;
+	background-color: orange;
+	position: relative;
+	border-left: 2px solid #333;
+	font-size:20px;
+	font-family:Impact;
+	
+ 
+}
+.menu li a:hover{
+	color:white;
+	background-color:deeppink;
+}
+
+
+.menu ul{
+    position:absolute;
+	z-index: 99999;
+	left:5px;
+	top:36px;
+	margin:0px;
+	list-style:none;
+	padding:0px;
+	opacity:0;
+	transition:opacity .35s ease .2s;
+	-webkit-transition:opacity .35s ease .2s;
+	-moz-transition:opacity .35s ease .2s;
+	-o-transition:opacity .35s ease .2s;
+	visibility:hidden;	
+}
+.menu ul li a{
+	border-bottom:2px solid #333;
+	border-left:none;
+	display:inline-block;
+	text-align:left;
+}
+
+
+.menu li:hover ul{
+    	opacity:1;
+	visibility:visible;
+}
+
+
+#contenedor{
+	
+	
+	width:1200px;
+	margin:auto;
+	padding:20px;
+    	height: 800px;
+    
+}
+h1 {
+    color:#F3E736; 
+    font-size:80px;
+	margin-top:50px;
+	height:0px;
+	text-align:left;
+	
+} 
+
+h2, h3 
+{
+    color:yellow; 
+    font-size:40px;
+} 
+
+
+
+footer{
+	margin-top:900px;
+	height:150px;
+	text-align:center;
+	background-repeat:repeat-x;
+	clear: both;
+	color: black;
+
+}
+
+
+a {
+
+	color: white;
+}
+
+p {
+
+    color:#F5B41D; 
+    font-size:30px;
+
+}
+ 
